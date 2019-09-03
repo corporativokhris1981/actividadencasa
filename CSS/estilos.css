@@ -1,0 +1,171 @@
+.padre{
+box-shadow:0 0 05em rgba(0,0,0,0.5);
+margin:0 auto;
+padding:1em;
+width:80%;
+background-color:black; 
+}
+.hijo1{
+	background:orange;
+	display:flex;
+	height:200px;
+	justify-content:flex-end;
+	padding:1em;
+}
+.hijo1 div{
+	background:silver;
+	border:solid;
+	height: 80px;
+	margin-right:2em;
+	width:80px;
+}
+.hijo2{
+	background:blue;
+	display:flex;
+	height:200px;
+	justify-content:flex-end;
+	padding:1em;
+}
+.hijo2 div{
+	background:#8806C4;
+	border:solid;
+	height: 80px;
+	margin-right:2em;
+	width:80px;
+
+}
+.hijo3{
+	background:#7FA9FF;
+	display:flex;
+	height:200px;
+	justify-content:center;
+	padding:1em;
+}
+.hijo3 div{
+	background:#7FA9FF;
+	border:solid;
+	height: 80px;
+	margin-right:2em;
+	width:80px;
+
+}
+.hijo4{
+	background:green;
+	display:flex;
+	height:200px;
+	justify-content:center;
+	padding:1em;
+}
+.hijo4 div{
+	background:green;
+	border:solid;
+	height: 80px;
+	margin-right:2em;
+	width:80px;
+}
+.nieto4{
+	background:pink;
+	display:flex;
+	height:200px;
+	justify-content:flex-start;
+	padding:1em;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	width:50%;
+}
+.nieto4 div{
+	background:pink;
+	height: 80px;
+	margin-right:2em;
+	width:50%;}
+
+.nieto5{
+	background:#FFD700;
+	display:flex;
+	height:200px;
+	justify-content:flex-end;
+	padding:1em;
+	width:50%;
+	flex-wrap:wrap;
+	align-items:flex-end;
+}
+.nieto5 div{
+	background:#FFD700;
+	border:solid;
+    height: 80px;
+	margin-right:2em;
+	width:50%;
+	flex-wrap:wrap;
+}
+.hijo5{
+	background:purple;
+	display:flex;
+	height:200px;
+	justify-content:flex-start;
+	align-items:flex-start;
+	padding:1em;
+	border:solid;
+	width:50%;
+}
+.hijo5 div{
+	justify-content:flex-start; 
+	background:purple;
+	border:solid;
+	border-color:black;
+	height: 80px;
+	margin-right:2em;
+	width:50%;
+}
+.hijo6{
+	background:purple;
+	display:flex;
+	height:200px;
+	justify-content:center;
+	align-items:flex-start;
+	border:solid;
+	padding:1em;
+	width:50%;
+}
+.hijo6 div{
+	background:purple;
+	border:solid;
+	height: 80px;
+	margin-right:2em;
+	width:50%;
+}
+.hijo7{
+	background:purple;
+	display:flex;
+	height:200px;
+	justify-content:flex-end;
+	align-items:flex-end;
+	padding:1em;
+	border:solid;
+	width:50%;
+}
+.hijo7 div{
+	background:purple;
+	border:solid;
+	border-color:black; 
+    height: 80px;
+	margin-right:2em;
+	width:50%;
+}
+.hijo8{
+	background:purple;
+	display:flex;
+	height:200px;
+	justify-content:flex-end;
+	align-items: 
+	padding:1em;
+	width:50%;
+	border:solid;
+}
+.hijo8 div{
+	background:purple;
+	border:solid;
+	border-color:black; 
+	height: 80px;
+	margin-right:2em;
+	width:50%;
+}
